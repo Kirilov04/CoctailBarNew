@@ -1,0 +1,149 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('https://static.vecteezy.com/system/resources/previews/022/229/060/large_2x/wooden-board-empty-table-top-blurred-background-perspective-brown-wood-table-over-blur-city-building-view-background-generative-ai-free-photo.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+button{
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  color: #ff5733; 
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 10x; 
+}
+
+h2{
+  color: #5b0ecf; 
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  letter-spacing: 2px;
+  padding: 20x; 
+  margin-top: 5%;
+  margin-left: 3%;
+
+}
+
+.grid-container p {
+  color: #333;
+  font-size: 20px; 
+  text-align: center; 
+  margin-top: 10px; 
+}
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+}
+
+.grid-container div {
+  text-align: center;
+
+}
+
+.grid-container img {
+  max-width: 70%;
+  height: auto;
+  display: auto;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  border-radius: 10px; 
+}
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --background-color: black;
+  --text-color: hsl(0, 0%, 100%);
+}
+body {
+  margin: 0;
+}
+.wrapper {
+  display: grid;
+  place-content: center;
+  background-color: var(--background-color);
+  min-height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-size: clamp(1.5rem, 1rem + 18vw, 15rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+
+img {
+  max-width: 20%;
+  margin-top: -17%;
+  margin-left: 3%;
+  border-radius: 10px;
+  height: auto;
+  display: block; 
+}
+
+p1 {
+  font-size: 22px;
+  margin-left: 60%;
+
+  text-transform: uppercase;
+  color:blue
+}
+p2 {
+  font-size: 22px;
+  margin-left: 60%;
+
+  text-transform: uppercase;
+  color:blue
+}
+p3 {
+  font-size: 22px;
+  margin-left: 60%;
+
+  text-transform: uppercase;
+  color:blue
+}
+li1 {
+margin-left: 60%;
+font-size: 20px;
+}
+li2 {
+  margin-left: 57%;
+  font-size: 20px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  li3 {
+    margin-left: 60%;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+    }
